@@ -1,0 +1,35 @@
+<VAST version="2.0">
+  <Ad id="static">
+    <InLine>
+      <AdSystem>Static VAST Template</AdSystem>
+      <AdTitle>Static VAST Tag</AdTitle>
+      <Impression>https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:08</Duration>
+            <TrackingEvents>
+              <Tracking event="start">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="firstQuartile">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="midpoint">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="thirdQuartile">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="complete">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="pause">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="mute">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+              <Tracking event="fullscreen">https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>http://www.jwplayer.com/</ClickThrough>
+              <ClickTracking>https://raw.githubusercontent.com/redfoo22/jwplayerAds/master/pixel.gif</ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile type="video/mp4" bitrate="300" width="480" height="270">
+                http://content.jwplatform.com/videos/MXVNL7f0-xq7RXwdw.mp4
+              </MediaFile>
+            </MediaFiles>
+           </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
